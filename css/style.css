@@ -104,6 +104,8 @@ li{
 .header-wrapper h3 {
     font-size: 1.2rem;
     font-style: italic;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .header-wrapper h4 {
@@ -120,9 +122,9 @@ section {
 
 .section-heading {
     font-style: italic;
-    font-size: 1.3rem;
+    font-size: 1rem;
     color: #777;
-    margin: 0.5rem 0;
+    margin: 1.5rem 0;
 }
 
 ul {
@@ -139,7 +141,13 @@ ul {
 ul li:last-child {
     margin-right: 0;
 }
-
+li{
+    border-radius: 8px;
+    color: var(--color-5);
+    text-transform: uppercase;
+    font-size: 18px;
+    letter-spacing: 2px;
+}
 .color-swatch-1 {
     background-color: var(--bg-color);
 }
@@ -246,6 +254,8 @@ button {
 p.typography-sample {
     font-family: var(--secondary-font);
     line-height: 1.5;
+    margin-top: 20px;
+    margin-bottom: 20px;
     max-width: 960px;
 }
 
@@ -262,6 +272,8 @@ font-size: 16px !important; */
     color: black;
     display: inline-block !important;
     padding-bottom: 5px !important;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 a:hover{
         color: #717171 !important;
@@ -273,6 +285,8 @@ p[class*="font-details-"] {
     font-size: 0.75rem;
     font-family: var(--secondary-font);
     color: #6f6f6f;
+        margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .adjectives ul {
