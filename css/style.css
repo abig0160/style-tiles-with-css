@@ -2,8 +2,8 @@
 
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:400italic,800italic,400,800");*/
 /* @import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap'); */
-@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@700&display=swap');
+@import url(//db.onlinewebfonts.com/c/2f4b0e58eb39868d3fad42ed32abdd38?family=ActaPosterW01-Regular);
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,700;1,300;1,700&display=swap');
 
 * {
     box-sizing: border-box;
@@ -21,8 +21,8 @@ use the fonts in other ways in the font hierarchy etc. */
     --color-4: #BF6D4E;
     --color-5: #D9320D;
 
-    --primary-font: 'Kumbh Sans', sans-serif;
-    --secondary-font: 'Varela Round', sans-serif;
+    --primary-font: 'Archivo Black', sans-serif;
+    --secondary-font: 'Roboto', sans-serif;
     --main-text-color: #000;
 
     --white-space: 1rem;
@@ -106,6 +106,7 @@ li{
     font-style: italic;
     margin-top: 20px;
     margin-bottom: 20px;
+    font-family: var(--secondary-font);
 }
 
 .header-wrapper h4 {
@@ -125,6 +126,7 @@ section {
     font-size: 1rem;
     color: #777;
     margin: 1.5rem 0;
+    font-family: var(--secondary-font);
 }
 
 ul {
@@ -232,8 +234,8 @@ button {
 }
 
 .h1-sample {
-    font-size: 2.4rem;
-    font-weight: bold;
+    font-size: 3.4rem;
+
 }
 
 .h2-sample {
@@ -274,6 +276,7 @@ font-size: 16px !important; */
     padding-bottom: 5px !important;
     margin-top: 20px;
     margin-bottom: 20px;
+    font-family: var(--secondary-font);
 }
 a:hover{
         color: #717171 !important;
